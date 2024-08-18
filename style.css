@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pappins', sans-serif;
+    
+}
+body{
+
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%), url(plane.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#container{ 
+    margin-left:400px;
+    padding-top: 100px;
+}
+#container h1{
+    font-weight: 600;
+    padding-top: 10px;
+    
+}
+#container ul{
+    /* font-weight: 500; */
+    padding-top: 20px;
+}
+.delete{
+    margin-left: 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5c0512;
+    color: white;
+    text-transform: uppercase;
+    width: 10%;
+     
+}
+input{
+    margin: 20px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: #008000;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+    padding: 5px;
+}
+.list-group{
+    width: 200px;
+    height: auto;
+    margin-top: 12px;
+    
+}
+
